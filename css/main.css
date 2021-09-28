@@ -1,0 +1,38 @@
+#header{
+   background-color: rgb(49, 60, 78); 
+}
+#header h1{
+   color: white;
+}
+#header h3{
+   color:rgb(61, 141, 152) ;
+}
+#header p{
+   color: #fff;
+}
+
+#contacts{
+  background-color: rgb(34, 42, 51);
+}
+#contacts a{
+   color: #fff;
+}
+#main-contents h2{
+   color: rgb(68, 147, 153);
+}
+#main-contents span{
+   color:rgb(110, 159, 160);
+}
+#right ul{list-style: none;} 
+ul li::before{
+   content:"\2022";
+   color:rgb(68, 147, 153) ;
+   font-weight: bold;
+   display: inline-block;
+}
+#right span{
+   color: rgb(155, 148, 143);
+}
+
+
+
