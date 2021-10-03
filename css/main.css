@@ -1,11 +1,17 @@
 #header{
-   background-color: rgb(49, 60, 78); 
+   background-color: rgb(49, 60, 78);
+   padding-top: 40px;
+   padding-right: 40px;
+   padding-bottom: 40px;
+   padding-left: 40px;
 }
 #header h1{
    color: white;
+   font-size: 40px;
 }
 #header h3{
    color:rgb(61, 141, 152) ;
+   padding-bottom: 30px;
 }
 #header p{
    color: #fff;
@@ -13,9 +19,13 @@
 
 #contacts{
   background-color: rgb(34, 42, 51);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #contacts a{
    color: #fff;
+   font-size: 20px;
 }
 #main-contents h2{
    color: rgb(68, 147, 153);
@@ -32,6 +42,22 @@ ul li::before{
 }
 #right span{
    color: rgb(155, 148, 143);
+}
+#main-contents{
+   display: flex;
+}
+#left,
+#right{
+   width: 50%;
+}
+#header{
+   display: flex;
+}
+.header-left{
+   width: 80%;
+}
+.header-right{
+   width: 20%;
 }
 
 
